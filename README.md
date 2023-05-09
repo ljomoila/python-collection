@@ -10,6 +10,13 @@ Make sure you have python 3 installed on your computer.
 
 Generates weekly on-call-developer list to excel file for the year (or chosen weeks) with the backup developer.
 
+List of developer names and weeks can be updated in `on-call-developer.py`
+
+```
+OnCallDeveloperList(['Lynx Lockwood', 'Rex Sharp', 'Nova Frost', 'Avery Steele',
+                     'Phoenix Blaze', 'Raven Swift', 'Eliot Voss', 'Sage Harper'], 52).generate()
+```
+
 ### RUN and Generate
 
 - `pip install pandas` - installs pandas for xml creation
