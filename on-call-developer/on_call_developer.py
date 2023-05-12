@@ -34,7 +34,7 @@ class OnCallDeveloperList:
             on_call_devs.append(on_call_dev)
             subsitutes.append(sub_dev)
 
-            self.excel_writer.add_to_columns(
+            self.excel_writer.print_row(
                 week, [week, on_call_dev, sub_dev])
 
         self.excel_writer.write()

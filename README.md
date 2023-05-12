@@ -19,5 +19,9 @@ OnCallDeveloperList(['Lynx Lockwood', 'Rex Sharp', 'Nova Frost', 'Avery Steele',
 
 ### RUN and Generate
 
-- `pip install pandas` - installs pandas for xml creation
-- `python3 on-call-developer/on_call_developer.py` - Runs application. As a result on-call-schedule.xlsx file is created.
+-   `pip install pandas` - installs pandas for xml creation
+-   `python3 on-call-developer/on_call_developer.py` - Runs application. As a result on-call-schedule.xlsx file is created.
+
+### Test
+
+-   `python3 on-call-developer/on_call_developer_unittest.py` - Runs tests

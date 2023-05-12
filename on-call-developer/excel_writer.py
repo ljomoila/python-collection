@@ -6,7 +6,7 @@ class ExcelWriter:
         self.filename = filename
         self.columns = pd.DataFrame(columns=columns)
 
-    def add_to_columns(self, index, data):
+    def print_row(self, index, data):
         self.columns.loc[index] = data
 
     def write(self):
